@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Marlon D. Dumal-is</Authors>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <AssemblyName>EMDD.KtCircularStack</AssemblyName>
+    <Company>EMDD</Company>
+    <Description>Circular Stack</Description>
+    <RepositoryUrl>https://github.com/marlond18/EMDD.KtCircularStacks.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/marlond18/EMDD.KtCircularStacks.git</PackageProjectUrl>
+    <PackageIcon>emd2.png</PackageIcon>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <RootNamespace>EMDD.KtCircularStack</RootNamespace>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>9</LangVersion>
+    <OutputPath>D:\Programming Work\EMDD.KtCircularStacks\build\</OutputPath>
+    <DocumentationFile>D:\Programming Work\EMDD.KtCircularStacks\docs\EMDD.KtCircularStack.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>9</LangVersion>
+    <OutputPath>D:\Programming Work\EMDD.KtCircularStacks\build\</OutputPath>
+    <DocumentationFile>D:\Programming Work\EMDD.KtCircularStacks\docs\EMDD.KtCircularStack.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\EMDD.Kt.Extensions\src\Images\emd2.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EMDD.Kt.Extensions" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

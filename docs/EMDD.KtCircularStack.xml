@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EMDD.KtCircularStack</name>
+    </assembly>
+    <members>
+        <member name="T:CircularStack.CircularStack`1">
+            <summary>
+            Main Object of the Circular Stack
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:CircularStack.CircularStack`1.Count">
+            <summary>
+            get the numbers of Elements
+            </summary>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.#ctor">
+            <summary>
+            Create empty Stack
+            </summary>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Create Stack from enumerable
+            </summary>
+            <param name="inenumerable"></param>
+        </member>
+        <member name="P:CircularStack.CircularStack`1.Item(System.Int32)">
+            <summary>
+            Get the item by index
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Add(`0)">
+            <summary>
+            Add to the stack
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.FindAll(System.Func{CircularStack.CircularStackElement{`0},System.Boolean})">
+            <summary>
+            Find all items matching the fucntion
+            </summary>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Equals(CircularStack.CircularStack{`0})">
+            <summary>
+            Equality
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Equals(System.Object)">
+            <summary>
+            Equality to object
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.GetHashCode">
+            <summary>
+            get hash by returning the enumerable hash of the data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.GetEnumerator">
+            <summary>
+            return enumerator implicit from Enumerator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Reverse">
+            <summary>
+            Reverse stack
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Remove(`0)">
+            <summary>
+            Remove the value
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Clear">
+            <summary>
+            Make Stack empty
+            </summary>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.RemoveAt(System.Int32)">
+            <summary>
+            Remove Item at the index
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.op_Implicit(System.Collections.Generic.List{`0})~CircularStack.CircularStack{`0}">
+            <summary>
+            Implicit Cast to List
+            </summary>
+            <param name="ienumerable"></param>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.op_Implicit(`0[])~CircularStack.CircularStack{`0}">
+            <summary>
+            Implicit Cast to Array
+            </summary>
+            <param name="ienumerable"></param>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Create(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Create
+            </summary>
+            <param name="ienumerable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.ToString">
+            <summary>
+            To String
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStack`1.Clone">
+            <summary>
+            element cloning
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CircularStack.CircularStackElement`1">
+            <summary>
+            Stack Element
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:CircularStack.CircularStackElement`1.Parent">
+            <summary>
+            Stack host
+            </summary>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.#ctor(`0)">
+            <summary>
+            Create the element
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:CircularStack.CircularStackElement`1.Value">
+            <summary>
+            Inner value
+            </summary>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.Equals(System.Object)">
+            <summary>
+            Equality to an object
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.ToString">
+            <summary>
+            Return the Tostring() of the Element
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.Equals(CircularStack.CircularStackElement{`0})">
+            <summary>
+            Equality
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.GetHashCode">
+            <summary>
+            return the hash of the next current, and previous
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.Clone">
+            <summary>
+            CLone object
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CircularStack.CircularStackElement`1.Next">
+            <summary>
+            Next element
+            </summary>
+        </member>
+        <member name="P:CircularStack.CircularStackElement`1.Previous">
+            <summary>
+            Previous Element
+            </summary>
+        </member>
+        <member name="P:CircularStack.CircularStackElement`1.Index">
+            <summary>
+            Index on the Host Stack
+            </summary>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.LoopForward(System.Action{CircularStack.CircularStackElement{`0}})">
+            <summary>
+            Go to next element
+            </summary>
+            <param name="todo"></param>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.Append(`0)">
+            <summary>
+            Attach a next element
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.Prepend(`0)">
+            <summary>
+            Prepend an element
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.GetEnumerator">
+            <summary>
+            Base Enumerator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircularStack.CircularStackElement`1.op_Implicit(CircularStack.CircularStackElement{`0})~`0">
+            <summary>
+            Cast to Stack Element
+            </summary>
+            <param name="element"></param>
+        </member>
+    </members>
+</doc>

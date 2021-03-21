@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB8F942F-1D43-4C35-A25B-44431E5FDDEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F20AF897-36C4-4C66-B01C-1374E56CADC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{7F1760F7-DAB5-4814-8F47-9626DCD33FC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMDD.KtCircularStack", "src\EMDD.KtCircularStack.csproj", "{62CA1CB3-6575-4851-B1BF-EB13D0C0B60C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularStackUnitTest", "test\unit\CircularStackUnitTest.csproj", "{682AC203-2D6F-4CD9-91FE-01DB4F61A19C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CA1CB3-6575-4851-B1BF-EB13D0C0B60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CA1CB3-6575-4851-B1BF-EB13D0C0B60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CA1CB3-6575-4851-B1BF-EB13D0C0B60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CA1CB3-6575-4851-B1BF-EB13D0C0B60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682AC203-2D6F-4CD9-91FE-01DB4F61A19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682AC203-2D6F-4CD9-91FE-01DB4F61A19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682AC203-2D6F-4CD9-91FE-01DB4F61A19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682AC203-2D6F-4CD9-91FE-01DB4F61A19C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F1760F7-DAB5-4814-8F47-9626DCD33FC1} = {F20AF897-36C4-4C66-B01C-1374E56CADC0}
+		{62CA1CB3-6575-4851-B1BF-EB13D0C0B60C} = {BB8F942F-1D43-4C35-A25B-44431E5FDDEF}
+		{682AC203-2D6F-4CD9-91FE-01DB4F61A19C} = {7F1760F7-DAB5-4814-8F47-9626DCD33FC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5476B12E-0B4B-42F4-9333-022658B58A02}
+	EndGlobalSection
+EndGlobal
